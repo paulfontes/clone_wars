@@ -1,3 +1,6 @@
+body {
+    font-family: oranienbaum-regular;
+}
 img.hero {
     width: 5em;
 }
@@ -12,4 +15,12 @@ button {
 img.navimg{
     width: 3em
 
+}
+
+.big-oran-img {
+    max-height: 20em;
+    object-fit: cover;
+    position: top;
+    width: 100%;
+    box-shadow:5px 5px 5px black;
 }
